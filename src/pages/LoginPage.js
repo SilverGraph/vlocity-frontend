@@ -70,6 +70,9 @@ const LoginPage = () => {
                         <Button type="submit" variant="contained" fullWidth>
                             Login
                         </Button>
+                        <Button onClick={() => navigate("/signup")} variant="outlined" fullWidth>
+                            Register
+                        </Button>
                     </Box>
                 </form>
             </Paper>
